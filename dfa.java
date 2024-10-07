@@ -1,13 +1,13 @@
 import java.util.Scanner;
 
-public class DFA {
+public class dfa {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
         String state = "q0";
         String input;
 
-        System.out.print("what is the string? ");
+        System.out.print("What is your string? ");
         input = sc.nextLine();
 
         for (int x = 0; x < input.length(); x++) {
